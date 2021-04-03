@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-color: palegreen;
+}
+
+header > h1 {
+  font-size: 48px;
+}
+
+main {
+  width:100%;
+  display: flex;
+}
+
+.prof {
+  width: 600px;
+  height: 500px;
+}
+
+.img {
+  height: 500px;
+  background-image: url(img/received_10155050311811685.jpeg);
+  background-size: cover;
+  background-position: top;
+}
+
+.carrer {
+  width: 400px;
+}
+
+.name {
+  margin: 0 20px;
+}
+
+.born {
+  margin: 10px 20px;
+  display: flex;
+}
+
+.hobby {
+  margin: 10px 20px;
+  display: flex;
+}
+
+.qualification {
+  margin: 10px 20px;
+  display: flex;
+}
+
+.life {
+  margin: 10px 20px;
+}
+
+p {
+  margin-left: 50px;
+}
+
+.hobby p {
+  margin-left: 88px;
+}
+
+footer {
+  width:100%;
+  height: 100px;
+  line-height: 100px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  margin: 0 50px;
+}
