@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-color: yellowgreen;
+}
+
+header > h1 {
+  font-size: 48px;
+}
+
+.heading-title {
+  width: 100%;
+  line-height: 50px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+}
+
+.images {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image1 {
+  height: 150px;
+  width: 150px;
+  margin-right: 20px;
+  background-image: url(img/DSC_0431.JPG);
+  background-position: center;
+  background-size: cover;
+}
+
+.image2 {
+  height: 150px;
+  width: 150px;
+  margin: 0 20px;
+  background-image: url(img/DSC_0435.JPG);
+  background-position: center;
+  background-size: cover;
+}
+
+.image3 {
+  height: 150px;
+  width: 150px;
+  margin: 0 20px;
+  background-image: url(img/DSC_0430.JPG);
+  background-position: center;
+  background-size: cover;
+}
+
+.image4 {
+  height: 150px;
+  width: 150px;
+  margin: 0 20px;
+  background-image: url(img/DSC_0441.JPG);
+  background-position: center;
+  background-size: cover;
+}
+
+.image5 {
+  height: 150px;
+  width: 150px;
+  margin: 0 20px;
+  background-image: url(img/DSC_0445.JPG);
+  background-position: center;
+  background-size: cover;
+}
+
+.images {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon1 {
+  height: 150px;
+  width: 150px;
+  margin-right: 20px;
+  background-image: url(img/DSC_0588.JPG);
+  background-position: center;
+  background-size: cover;
+}
+
+.pokemon2 {
+  height: 150px;
+  width: 150px;
+  margin: 0 20px;
+  background-image: url(img/DSC_0440.JPG);
+  background-position: center;
+  background-size: 99% 99%;
+}
+
+.playing1 {
+  height: 150px;
+  width: 150px;
+  margin-right: 20px;
+  background-image: url(img/HFeWJvPw.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.playing2 {
+  height: 150px;
+  width: 150px;
+  margin: 0 20px;
+  background-image: url(img/kD80KYKA.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.playing3 {
+  height: 150px;
+  width: 150px;
+  margin: 0 20px;
+  background-image: url(img/received_10155050311811685.jpeg);
+  background-position: top;
+  background-size: cover;
+}
+
+footer {
+  width:100%;
+  height: 100px;
+  line-height: 100px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  margin: 0 50px;
+}
